@@ -1,1 +1,3 @@
-uk/ac/soton/comp1206/App.class
+uk/ac/soton/comp1206/ButtonClickHandler.class
+uk/ac/soton/comp1206/ResetButtonClickHandler.class
+uk/ac/soton/comp1206/NoughtsAndCrosses.class

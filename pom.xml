@@ -20,6 +20,17 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>19.0.2.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>19.0.2.1</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
       <version>2.22.1</version>
@@ -55,7 +66,7 @@
           <artifactId>javafx-maven-plugin</artifactId>
           <version>0.0.6</version>
           <configuration>
-            <mainClass>uk.ac.soton.comp1206.App</mainClass>
+            <mainClass>uk.ac.soton.comp1206.NoughtsAndCrosses</mainClass>
           </configuration>
         </plugin>
         <plugin>
@@ -63,7 +74,7 @@
           <artifactId>exec-maven-plugin</artifactId>
           <version>3.1.1</version>
           <configuration>
-            <mainClass>uk.ac.soton.comp1206.App</mainClass>
+            <mainClass>uk.ac.soton.comp1206.NoughtsAndCrosses</mainClass>
           </configuration>
         </plugin>
         <plugin>
@@ -72,7 +83,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>uk.ac.soton.comp1206.App</mainClass>
+                <mainClass>uk.ac.soton.comp1206.NoughtsAndCrosses</mainClass>
               </manifest>
             </archive>
           </configuration>
