@@ -1,3 +1,5 @@
-uk/ac/soton/comp1206/ButtonClickHandler.class
+uk/ac/soton/comp1206/GameBoard.class
 uk/ac/soton/comp1206/ResetButtonClickHandler.class
+uk/ac/soton/comp1206/NoughtsAndCrossesApp.class
+uk/ac/soton/comp1206/ButtonClickHandler.class
 uk/ac/soton/comp1206/NoughtsAndCrosses.class
